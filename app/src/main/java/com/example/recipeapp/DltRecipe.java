@@ -21,7 +21,7 @@ public class DltRecipe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_delete_recipe);
+        setContentView(R.layout.activity_dlt_recipe);
         ed1=(EditText) findViewById(R.id.deletetitle);
         b1=(AppCompatButton) findViewById(R.id.dltbtn);
 
